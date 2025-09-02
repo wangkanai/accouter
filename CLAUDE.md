@@ -104,4 +104,9 @@ For new components:
 - **Main entry**: `accouter.scss` imports everything via `scss/_index.scss`
 - **Build outputs**: `/css/accouter.css` (expanded) and `/css/accouter.min.css` (minified)
 - **Documentation**: Uses DocFX with custom templates in `/templates/accouter/`
-- **Browser support**: Modern browsers with CSS3 features (flexbox, grid, custom properties)
+- **Browser support**: See the project's [browserslist configuration](./package.json) for full details. Minimum supported versions:
+  - Chrome 90+
+  - Firefox 88+
+  - Edge 90+
+  - Safari 14+
+  - (or any browser supporting CSS3 flexbox, grid, and custom properties)
